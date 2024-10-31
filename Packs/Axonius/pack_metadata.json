@@ -1,0 +1,26 @@
+{
+    "name": "Axonius",
+    "description": "Enrichment for devices and users in your environment.",
+    "support": "partner",
+    "currentVersion": "1.2.4",
+    "author": "Axonius",
+    "url": "https://docs.axonius.com",
+    "email": "support@axonius.com",
+    "created": "2020-07-30T18:52:36Z",
+    "categories": [
+        "Data Enrichment & Threat Intelligence"
+    ],
+    "tags": [],
+    "useCases": [],
+    "keywords": [],
+    "githubUser": [
+        "bryce-ax",
+        "nate-axonius",
+        "sahar-hagbi1"
+    ],
+    "certification": "certified",
+    "marketplaces": [
+        "xsoar",
+        "marketplacev2"
+    ]
+}

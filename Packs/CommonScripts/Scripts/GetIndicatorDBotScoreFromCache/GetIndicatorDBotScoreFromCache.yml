@@ -1,0 +1,21 @@
+args:
+- description: A comma-separated list of indicator values to check.
+  name: value
+  required: true
+  isArray: true
+comment: Get the overall score for the indicator as calculated by DBot.
+commonfields:
+  id: GetIndicatorDBotScoreFromCache
+  version: -1
+dockerimage: demisto/python3:3.10.14.95956
+enabled: true
+name: GetIndicatorDBotScoreFromCache
+runas: DBotWeakRole
+script: ''
+scripttarget: 0
+subtype: python3
+tags: []
+type: python
+fromversion: 6.0.0
+tests:
+- GetIndicatorDBotScoreFromCache-Test
